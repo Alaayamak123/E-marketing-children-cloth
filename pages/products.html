@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="../style/index.css" />
+  </head>
+  <body>
+  <nav class="site-navigation">
+    <p onclick="changeColor()">change color</p>
+  
+    <div>
+      <p>E-Marketing kids shop</p>
+      <img src="../images/site-logo.png" alt="site logo" width="50" height="50">
+    </div>
+  </nav>
+    <div class="site-sections">
+      <a href="contact.html">اتصل بنا</a>
+      <a href="branches.html">فروعنا</a>
+      <a href="products.html">منتجاتنا</a>
+      <a href="about.html">من نحن</a>
+      <a href="../index.html">الرئيسية</a>
+    </div>
+
+    <div class="wrapper">
+      <div class="products-wrapper">
+        <div class="products-wrapper-header">
+          <div>
+            <div class="select">
+              <select id="standard-select" onchange="loadSelectedProducts()">
+                <option value="boys">اولاد</option>
+                <option value="girls">بنات</option>
+              </select>
+              <span class="focus"></span>
+            </div>
+            <span>نوع الملابس</span>
+          </div>
+          <h1>منتجاتنا</h1>
+        </div>
+        <div class="products-grid">
+        
+        </div>
+      </div>
+    </div>
+
+    <div class="site-footer">
+      <div>
+        <a href="../index.html">الرئيسية</a>
+        <a href="about.html">من نحن</a>
+        <a href="products.html">منتجاتنا</a>
+        <a href="branches.html">فروعنا</a>
+        <a href="contact.html">اتصل بنا</a>
+      </div>
+      <p>جميع الحقوق محفوظة</p>
+    </div>
+
+    <script src="../scripts/products.js"></script>
+    <script src="../scripts/shared.js"></script>
+
+  </body>
+</html>
